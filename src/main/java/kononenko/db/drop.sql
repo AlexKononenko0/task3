@@ -1,0 +1,17 @@
+DROP INDEX IF EXISTS IX_author_author_name;
+DROP INDEX IF EXISTS IX_book_title;
+
+DROP SEQUENCE IF EXISTS book_sequence;
+
+DROP VIEW IF EXISTS vw_book_author;
+DROP VIEW IF EXISTS vw_admins;
+
+DROP TABLE IF EXISTS book_order;
+DROP TABLE IF EXISTS book_count;
+DROP TABLE IF EXISTS book_author;
+DROP TABLE IF EXISTS "order";
+DROP TABLE IF EXISTS book_publish;
+DROP TABLE IF EXISTS book;
+DROP TABLE IF EXISTS author;
+DROP TABLE IF EXISTS "user";
+DROP TABLE IF EXISTS role;
